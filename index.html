@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>sub.same-origin-policy.info</title>
+	</head>
+	<body>
+		<h2>sub.same-origin-policy.info</h2>
+		<p>
+			This is: <span id="window_location"></span><br/>
+		</p>
+		<script>
+			window_location.innerText = window.location;
+		</script>
+		<p>
+			The content of this web page is secret until you press this button:<br/>
+			<input type="button" value="Relax: document.domain = 'same-origin-policy.info'" onclick="document.domain = 'same-origin-policy.info'" />
+		</p>
+	</body>
+</html>
